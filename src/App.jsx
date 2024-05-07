@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="app grid grid-areas-app grid-cols-app grid-rows-app h-[calc(100dvh)] lg:grid-areas-appLg lg:grid-cols-appLg md:grid-areas-appMd md:grid-cols-appMd">
       <div className="sidebar bg-gray-200 grid-in-sidebar hidden lg:block z-20">
-        <Sidebar>
+        <Sidebar class={"h-full"}>
           <Sidebar.Logo href="#" img={""}>
             <HiBookOpen size={24} />
           </Sidebar.Logo>
