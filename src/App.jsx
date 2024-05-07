@@ -26,11 +26,13 @@ const App = () => {
         <div className="bg-gray-800 text-white h-[48px] flex-shrink-0 sticky top-0">
           List Top
         </div>
+        <div className="bg-gray-50 text-black flex-1">List</div>
         <div className="bg-gray-800 text-white h-[48px] flex-shrink-0 sticky bottom-0">
           List Bottom
         </div>
       </div>
       <div className="content bg-gray-100 overflow-y-auto grid-in-content hidden md:flex md:flex-col md:justify-between z-10">
+        <div className="bg-gray-50 text-black flex-1">Content</div>
         <div className="bg-gray-800 text-white h-[48px] flex-shrink-0 sticky bottom-0">
           Content Bottom
         </div>
